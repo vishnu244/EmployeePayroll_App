@@ -18,8 +18,8 @@ display: flex;
 flex-direction: row;
 align-items: center;
 border: 0px solid gray;
-width: 80%;
-margin: 30px;
+width: 100%;
+margin: 20px;
 
 
 }
@@ -35,31 +35,29 @@ letter-spacing: 0px;
 
 }
 .emp-payroll{
-color:#42515f
+color:#1d76c9
 }
 .form-content{
-min-height: calc(100%-80px);
+min-height: calc(100%-250px);
 background-color: aqua;
 display: flex;
 justify-content: center;
 align-items: center;
-border: 5px solid aqua;
+border: 5px solid rgba(12, 41, 186, 0.92);
 }
 .form{
-width: 65%;
-padding: 44px 60px;
-background: #ffffff 0% 0% no-repeat padding-box;
-box-shadow: 0px 3px 6px #f5f5f5;
+width: 90%;
+padding: 40px 40px;
+background: #f1eded ;
+box-shadow: 10px 10px 10px #060000;
 border-radius: 8px;
-opacity: 1;
+
 }
 .form-head{
-font: normal bold;
+font: bold;
 letter-spacing: 0px;
-color: #42515f;
+color: #01060a;
 text-transform: capitalize;
-opacity: 1;
-padding-bottom: 20px;
 text-align: center;
 }
 .row-content{
@@ -83,11 +81,11 @@ opacity: 1;
 
 }
 .input{
-width: 100%;
+width: 86%;
 padding: 12px;
 border: 1px solid #ccc;
 border-radius: 4px;
-resize: vertical;
+resize: both;
 }
 .profile-radio-content{
 display:flex;
@@ -101,29 +99,33 @@ align-items: center;
 
 }
 .profile{
-width: 40px;
-border-radius: 40%;
-margin-left: 20px;
+width: 50px;
+border-radius: 30%;
+margin-left: 10px;
+margin-right: 20px;
 }
 .gender-radio-content{
     display:flex;
     flex-direction: row;
     margin-left: 80px;
+    
 }
 .gen{
     width: 40px;
     border-radius: 50%;
-    margin-left: 20px;
+    margin-left: 10px;
+    margin-right: 30px;
+
 }
 .dep-checkbox{
     display:flex;
     flex-direction: row;
-    margin-left: 50px;
+    margin-left: 45px;
 }
 
 .department{
-    width: 80px;  
-    margin-left: 5px;
+    width: 70px;  
+    margin-left: 10px;
 }
 .salary-number{
     display:flex;
@@ -143,44 +145,10 @@ select{
     resize: vertical;
     font: normal;
     letter-spacing: 0px;
-    color: #42515f;
-    background-color: transparent;
+    color: #02060a;
     margin-left: 60px;
 }
-.buttonParent{
-    display: flex;
-    margin-bottom: 10px;
-    justify-content: space-between;
-    margin-top: 20px;
-}
-.button{
-    font-size:15px;
-    letter-spacing: 0px;
-    color: #42515f;
-    opacity: 1;
-    background: transparent;
-    border: none;
-    font-weight: 400;
-    min-width: 100px;
-    padding: 7px 7px;
-    border: 1px solid #707070;
-    cursor: pointer;
-    border-radius: 10px;
-}
-.submitButton{
-    border: none;
-    background-color: #04bd36;
-    margin-right: 30px;
-    border-radius: 10px;
-}
-.cancelButton{
-    text-decoration: none;
-    text-align: center;
-    background-color: crimson;
-}
-.resetButton{
-    background-color: rgb(39, 33, 231);
-}
+
 .Notes{
     margin:30px;
     display:flex;
@@ -189,6 +157,43 @@ select{
     width: 100%;
     border-radius: 10px;
 }
+
+.buttonParent{
+    display: flex;
+    margin-bottom: 10px;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.button{
+    font-size: 15px;
+    letter-spacing: 0px;
+    color: #050505;
+    opacity: 1;
+    background: transparent;
+    border: none;
+    font-weight: 1000;
+    min-width: 100px;
+    padding: 7px 7px;
+    border: 1px solid #707070;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.cancelButton{
+    text-decoration: none;
+    text-align: center;
+    background-color: crimson;
+}
+.submitButton{
+    border: none;
+    background-color: #04bd36;
+    margin-right: 30px;
+    
+}
+
+.resetButton{
+    background-color: rgb(39, 33, 231);
+}
+
 .submitButton:hover{
     transform: scale(1.1);
     transition : transform 0.4s ease;
@@ -209,8 +214,4 @@ select{
     margin:10px;
     padding:10px;
     border-radius: 5px;;
-}
-footer{
-    padding:30px;
-    background-color: grey;
 }
